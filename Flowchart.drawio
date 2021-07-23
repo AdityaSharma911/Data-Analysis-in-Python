@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T07:10:36.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="YcgBctkMfh8iAu7lIFod" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-23T07:22:12.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="nfqWFLT6t-lg_yMFNrkd" version="14.9.2" type="github">
   <diagram id="RYdXmEAZYq84uBM2kZKI" name="Page-1">
-    <mxGraphModel dx="782" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,6 +224,31 @@
         </mxCell>
         <mxCell id="htr4k9ovNGDv8slnHkLP-8" value="Use df.astype(&quot;int/float/object&quot;)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="360" y="700" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="htr4k9ovNGDv8slnHkLP-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HPVV4rrdQAXOIrdfXkmh-27" target="htr4k9ovNGDv8slnHkLP-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint" />
+            <mxPoint x="620" y="290" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htr4k9ovNGDv8slnHkLP-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="htr4k9ovNGDv8slnHkLP-10" target="htr4k9ovNGDv8slnHkLP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="htr4k9ovNGDv8slnHkLP-10" value="Simple Scaling" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="htr4k9ovNGDv8slnHkLP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="htr4k9ovNGDv8slnHkLP-11" target="htr4k9ovNGDv8slnHkLP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="htr4k9ovNGDv8slnHkLP-11" value="x&lt;sub&gt;new&lt;/sub&gt; = x&lt;sub&gt;old&lt;/sub&gt;/x&lt;sub&gt;max&lt;/sub&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="680" y="220" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="htr4k9ovNGDv8slnHkLP-13" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="865" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="htr4k9ovNGDv8slnHkLP-15" value="Data Analysis in Python(MindMap)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;fontSize=14;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-190" width="280" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
