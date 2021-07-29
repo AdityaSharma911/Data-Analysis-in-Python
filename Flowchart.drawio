@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-29T17:14:50.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="VUoZKbN_EcvPVoXTl_Aq" version="14.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-29T17:19:54.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="RdnJoO9wmYEVBNfvGYmm" version="14.9.2" type="github" pages="3">
   <diagram id="RYdXmEAZYq84uBM2kZKI" name="Data Analysis in Python">
     <mxGraphModel dx="782" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="1" shadow="0">
       <root>
@@ -579,6 +579,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="BsGwAYuLAhRKWx9GgMfS-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZP4zikapIZt3paoDrcCg-1" source="fwF-7ZM8CO7kkbt5-JVj-17" target="BsGwAYuLAhRKWx9GgMfS-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fwF-7ZM8CO7kkbt5-JVj-17" value="With average&lt;br&gt;(for numerical data)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="100" y="260" width="120" height="60" as="geometry" />
         </mxCell>
@@ -604,9 +607,6 @@
             <mxPoint x="612" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DUozOFktFVDVghimVqA5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZP4zikapIZt3paoDrcCg-1" source="fwF-7ZM8CO7kkbt5-JVj-24" target="DUozOFktFVDVghimVqA5-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="fwF-7ZM8CO7kkbt5-JVj-24" value="Drop an &lt;br&gt;entry" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="532.5" y="200" width="80" height="50" as="geometry" />
         </mxCell>
@@ -631,7 +631,7 @@
         <mxCell id="fwF-7ZM8CO7kkbt5-JVj-28" value="Use df.astype(&quot;int/float/object&quot;)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="577.5" y="800" width="175" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="fwF-7ZM8CO7kkbt5-JVj-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ZP4zikapIZt3paoDrcCg-1" target="fwF-7ZM8CO7kkbt5-JVj-30" edge="1">
+        <mxCell id="fwF-7ZM8CO7kkbt5-JVj-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ZP4zikapIZt3paoDrcCg-1" target="TKZ421PlFeqjSwSRdKJI-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="718.2032576983997" y="483.28267329518485" as="sourcePoint" />
             <mxPoint x="780" y="565" as="targetPoint" />
@@ -693,9 +693,6 @@
             <mxPoint x="380" y="470" as="sourcePoint" />
             <mxPoint x="430" y="420" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DUozOFktFVDVghimVqA5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZP4zikapIZt3paoDrcCg-1" source="mK0lwnR8mvR-65Lb2YFY-0" target="DUozOFktFVDVghimVqA5-3">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mK0lwnR8mvR-65Lb2YFY-0" value="Drop a variable" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="362.5" y="200" width="80" height="50" as="geometry" />
@@ -791,7 +788,7 @@
         <mxCell id="TKZ421PlFeqjSwSRdKJI-20" value="Check with data collection source" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="270" y="510" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TKZ421PlFeqjSwSRdKJI-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ZP4zikapIZt3paoDrcCg-1" edge="1">
+        <mxCell id="TKZ421PlFeqjSwSRdKJI-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ZP4zikapIZt3paoDrcCg-1" edge="1" source="TKZ421PlFeqjSwSRdKJI-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="865" y="410" as="sourcePoint" />
             <mxPoint x="947.2" y="354" as="targetPoint" />
@@ -806,11 +803,8 @@
         <mxCell id="TKZ421PlFeqjSwSRdKJI-23" value="Min-Max" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="910" y="385" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DUozOFktFVDVghimVqA5-1" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="ZP4zikapIZt3paoDrcCg-1">
-          <mxGeometry x="512.5" y="65" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DUozOFktFVDVghimVqA5-3" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="ZP4zikapIZt3paoDrcCg-1">
-          <mxGeometry x="342.5" y="65" width="120" height="60" as="geometry" />
+        <mxCell id="BsGwAYuLAhRKWx9GgMfS-0" value="mean=df[&quot;column_name&quot;].mean()&lt;br&gt;df[&quot;column_name&quot;].replace(np.nan,mean)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="ZP4zikapIZt3paoDrcCg-1">
+          <mxGeometry x="25" y="140" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
