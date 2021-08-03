@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T09:30:37.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="bXfiecq56ITdwhmNLp-b" version="14.9.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-03T12:38:10.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="shFSmLXutdcFUdDwKufi" version="14.9.3" type="github" pages="3">
   <diagram id="RYdXmEAZYq84uBM2kZKI" name="Data Analysis in Python">
     <mxGraphModel dx="782" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="1" shadow="0">
       <root>
@@ -216,10 +216,10 @@
         <mxCell id="htr4k9ovNGDv8slnHkLP-5" value="Incorrect &lt;br&gt;DataTypes" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="380" y="590" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="htr4k9ovNGDv8slnHkLP-7" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="EmyPIiLycGjVeuIM7MxO-38" edge="1">
+        <mxCell id="htr4k9ovNGDv8slnHkLP-7" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="666" as="sourcePoint" />
-            <mxPoint x="449" y="700" as="targetPoint" />
+            <mxPoint x="440" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="htr4k9ovNGDv8slnHkLP-8" value="Use df.astype(&quot;int/float/object&quot;)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -441,9 +441,6 @@
         </mxCell>
         <mxCell id="EmyPIiLycGjVeuIM7MxO-37" value="Incorrect &lt;br&gt;DataTypes" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="380" y="590" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="EmyPIiLycGjVeuIM7MxO-38" value="Use df.astype(&quot;int/float/object&quot;)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="352.5" y="700" width="175" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EmyPIiLycGjVeuIM7MxO-39" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="EmyPIiLycGjVeuIM7MxO-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
