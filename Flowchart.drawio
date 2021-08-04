@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T12:38:10.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="shFSmLXutdcFUdDwKufi" version="14.9.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-04T06:22:43.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="3OehBvIQLd6TBhr8gp-D" version="14.9.4" type="github" pages="3">
   <diagram id="RYdXmEAZYq84uBM2kZKI" name="Data Analysis in Python">
-    <mxGraphModel dx="782" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="1" shadow="0">
+    <mxGraphModel dx="1022" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -488,7 +488,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="22Ti6lONcy-zjPkPk6TW" name="Data Cleaning ">
-    <mxGraphModel dx="782" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ZP4zikapIZt3paoDrcCg-0" />
         <mxCell id="ZP4zikapIZt3paoDrcCg-1" parent="ZP4zikapIZt3paoDrcCg-0" />
@@ -561,7 +561,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BsGwAYuLAhRKWx9GgMfS-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZP4zikapIZt3paoDrcCg-1" source="fwF-7ZM8CO7kkbt5-JVj-17" target="BsGwAYuLAhRKWx9GgMfS-0">
+        <mxCell id="BsGwAYuLAhRKWx9GgMfS-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ZP4zikapIZt3paoDrcCg-1" source="fwF-7ZM8CO7kkbt5-JVj-17" target="BsGwAYuLAhRKWx9GgMfS-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fwF-7ZM8CO7kkbt5-JVj-17" value="With average&lt;br&gt;(for numerical data)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
@@ -770,7 +770,7 @@
         <mxCell id="TKZ421PlFeqjSwSRdKJI-20" value="Check with data collection source" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="270" y="510" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TKZ421PlFeqjSwSRdKJI-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ZP4zikapIZt3paoDrcCg-1" edge="1" source="TKZ421PlFeqjSwSRdKJI-12">
+        <mxCell id="TKZ421PlFeqjSwSRdKJI-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ZP4zikapIZt3paoDrcCg-1" source="TKZ421PlFeqjSwSRdKJI-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="865" y="410" as="sourcePoint" />
             <mxPoint x="947.2" y="354" as="targetPoint" />
@@ -785,14 +785,26 @@
         <mxCell id="TKZ421PlFeqjSwSRdKJI-23" value="Min-Max" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="910" y="385" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BsGwAYuLAhRKWx9GgMfS-0" value="mean=df[&quot;column_name&quot;].mean()&lt;br&gt;df[&quot;column_name&quot;].replace(np.nan,mean)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="ZP4zikapIZt3paoDrcCg-1">
+        <mxCell id="BsGwAYuLAhRKWx9GgMfS-0" value="mean=df[&quot;column_name&quot;].mean()&lt;br&gt;df[&quot;column_name&quot;].replace(np.nan,mean)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#36393d;fillColor=#ffff88;" parent="ZP4zikapIZt3paoDrcCg-1" vertex="1">
           <mxGeometry x="25" y="140" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-vlZB7pt0rHeDF7lE6N-0" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZP4zikapIZt3paoDrcCg-1" source="fwF-7ZM8CO7kkbt5-JVj-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="230" as="sourcePoint" />
+            <mxPoint x="573" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-vlZB7pt0rHeDF7lE6N-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZP4zikapIZt3paoDrcCg-1" source="mK0lwnR8mvR-65Lb2YFY-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="402.14" y="200" as="sourcePoint" />
+            <mxPoint x="403" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="WUFafUWm3HQGowsSO-5S" name="EDA">
-    <mxGraphModel dx="782" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="vzD1yZePkz2lJ15zdRbu-0" />
         <mxCell id="vzD1yZePkz2lJ15zdRbu-1" parent="vzD1yZePkz2lJ15zdRbu-0" />
